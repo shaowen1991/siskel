@@ -38,7 +38,6 @@ var AppView = Backbone.View.extend({
   },
 
   handleClick: function(e) {
-    console.log(e);
     var field = $(e.target).val();
     this.collection.sortByField(field);
   },
